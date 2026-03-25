@@ -3,3 +3,5 @@
 Material for the course Data Science Fundamentals for Chemists and Biochemists at the University of Bern. 
 
 Third edition spring term 2024, S. Haug
+
+Notebook 16 was added at a later point.
