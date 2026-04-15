@@ -1,0 +1,67 @@
+
+3.) What is machine learning, and how does it differ from traditional programming?
+
+In machine learning the algorithms rules are shaped by inputting data + answer. In traditional programming rules are manually defined and applied on data.
+
+------
+
+4.) What are the key concepts and techniques in machine learning?
+
+Supervised Learning: The algorithm is trained on "labeled" data. You give the machine the inputs and the correct answers, and it learns the relationship between them. Done by Regression: Used when the output is a continuous number. Classification: Used when the output is a distinct category. Ensemble Methods: Combining multiple weaker models to create one highly accurate "super model."
+
+Unsupervised Learning: The algorithm is given "unlabeled" data. It must figure out the hidden structures, patterns, or groupings entirely on its own without knowing the "right" answers in advance. Done by Clustering: Grouping data points so that items in the same group are more similar to each other than to those in other groups. Dimensionality Reduction: Compressing complex data down to its most essential variables without losing the big picture, making it easier to process and visualize.
+
+Reinforcement Learning: The algorithm learns by interacting with an environment through trial and error. It is given a goal and receives "rewards" for good actions and "penalties" for bad ones.
+
+--------
+
+5.) What are the different types of machine learning algorithms?
+
+Linear Models 
+These algorithms look at data and try to draw a straight line (or a flat plane) right through the middle of it. Best for simple and clean data.
+
+Tree-Based 
+These algorithms work like a massive flowchart. They split the data over and over again based on specific rules. Best for tabular data.
+
+Instance-Based Models 
+Algorithms memorize the entire training dataset. When new data comes in, they compare it to the memories. Best for recommendations and highly grouped data.
+
+Probabilistic Models 
+Algorithms are based purely on probability theory (specifically Bayes' Theorem). They calculate the odds of an outcome based on prior knowledge of conditions that might be related to that outcome. Best for Text classification, spam filtering, and sentiment Analysis.
+
+Neural Networks 
+These are networks of interconnected nodes (neurons) that pass data through multiple layers to learn highly abstract representations. best for highly complex, unstructured data like images, video, and human language.
+
+-----
+
+6.) What are the common applications of machine learning?
+
+Applications are Deep learning models in medical Imaging (Tumors etc); drug discovery by prediction of drug-protein Affinity; prediction of patient well-being based on lab findings and patient history 
+
+-----
+
+7.) How do you evaluate the performance of a machine learning model?
+
+For numeric data K-Fold Cross-Validation (The Gold Standard) where number k chunks of data are randomly selected and one part of chunks is used for training, the other part for testing. The chunks are rotated so that each chunk has equal number of usage as training and testing.
+The ROC Curve & AUC (For Classification).
+
+----
+
+8.) How do you prepare data for use in a machine learning model?
+
+Handling missing values, Duplicates and outliers. Assigning values to categories the machine can work with. Scaling of values so the machine interprets them as similar in importance. Data Splitting (test and training)
+
+-----
+
+9.) What are some common challenges in machine learning, and how can they be addressed?
+
+Underfitting: too Little data$
+Overfitting: too complex data, thus good for the trained data but not other data. Addressed by Cross-validation.
+Poor data Quality: bad prediction of good data. Addressed by preprocessing.
+Underlaying bias of training data: Biased prediction. Addressed by checking decision making process and implementing Fairness constraints
+
+----
+
+10.) What are some resources and tools available to help you learn and practice machine learning?
+
+Kaggle: free Quality Dataset library, Competitions, free courses.

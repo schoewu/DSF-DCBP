@@ -1,0 +1,11 @@
+2.) What is Chembl? How do you access it?
+
+ChEMBL is a databank. It contains:
+Compounds: Structures and properties of millions of distinct drug-like molecules and natural products.
+Targets: Information on proteins, genes, cell lines, and whole organisms that these molecules interact with.
+Bioactivity Data: Millions of quantitative measurements showing exactly how strongly a compound binds to a target or inhibits a biological function.
+Clinical Data: Information on approved drugs, clinical trials, and drug indications.
+Literature: The data is manually extracted from tens of thousands of peer-reviewed medicinal chemistry papers, patents, and deposited datasets.
+Access: Freely either via web interface or as python package. 
+
+

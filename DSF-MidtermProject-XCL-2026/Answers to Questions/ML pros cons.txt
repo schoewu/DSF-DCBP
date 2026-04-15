@@ -1,0 +1,35 @@
+1.) Which packages are available for ML? Describe the pros and cons and document the availability.
+
+
+
+-Scikit-learn (availability: for free)
+Pros: Incredibly consistent and well-designed API; good documentation; perfect for beginners; covers almost every traditional ML algorithm (regression, random forests, SVMs).
+Cons: Not designed for deep learning; lacks native GPU acceleration; struggles with massive datasets that don't fit into your computer's RAM.
+
+-PyTorch (availability: for free)
+Pros: Highly "Pythonic" (python-like) and intuitive; uses dynamic computation graphs (which makes debugging vastly easier); Big in academic Research, thus updated to newest Knowledge.
+Cons: Steeper learning curve than Keras.
+
+-TensorFlow (availability: for free)
+Pros: Enterprise-grade scalability; mature tools for deploying models to mobile (TF Lite), web (TF.js), and production servers (TF Serving); powerful visualization tools like TensorBoard.
+Cons: Has a steeper learning curve and can feel less intuitive than PyTorch.
+
+-Keras (availability: for free)
+Pros: Extremely beginner-friendly; allows you to build complex neural networks in just a few lines of highly readable code; rapid prototyping.
+Cons: Abstracting away the math means you have less low-level control; if you want to build a highly experimental or entirely novel neural network architecture, Keras can be restrictive.
+
+-XGBoost (availability: for free)
+Pros: Exceptional accuracy on structured/tabular data; handles missing values automatically; includes built-in regularization to prevent overfitting.
+Cons: Can be computationally heavy and slow to train on massive datasets compared to its rivals.
+
+-LightGBM (availability: for free)
+Pros: Blazing fast training speeds; highly memory-efficient; handles massive datasets brilliantly; often matches or beats XGBoost in performance.
+Cons: Prone to overfitting on smaller datasets (it is generally recommended only if you have more than 10,000 rows of data).
+
+-Transformers (by Hugging Face) (availability: for free)
+Pros: Unmatched access to state-of-the-art pre-trained models.
+Cons: The underlying models are massive, running or fine-tuning them often requires heavy hardware (GPUs).
+-
+OpenCV (availability: for free)
+Pros: The industry standard for computer vision; extremely fast because it is written in C++ under the hood; contains thousands of algorithms for image manipulation.
+Cons: The API can feel a bit archaic and non-Pythonic; the documentation is dense; it has a steep learning curve for beginners.
