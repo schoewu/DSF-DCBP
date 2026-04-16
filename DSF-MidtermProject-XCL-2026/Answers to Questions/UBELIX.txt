@@ -1,0 +1,20 @@
+2.) How do you gain access?
+Get campus-Account activated (request by mail or via online form).
+With received key log in either via website or terminal (Need to be in UniBE network).
+
+3.) How do you submit a job?
+Either by webinterface: UBELIXonDemand site -> interactive Apps -> Jupyter Notebook -> Fill out Submission form.
+Or by ssh in terminal: Generate Submission file and fill out -> Submission in queue -> After run it's on local storage.
+
+4.) Who can have access?
+On the submitted file: Only myself or IT staff of UBELIX
+Access on UBELIX service: valid UniBE accounts.
+
+5. What resources are available there?
+
+E.g. 3 servers (VS)code, JupyterNotebook, Rstudio and Text Lab.
+
+6.) Reuse the code from the tutorial to run the relevant part (training) on Ubelix. Document how you do the code modification and transfer. (5 pts)
+8.) Run the training step on Ubelix (10 pts) Provide the submission script and the code you run there.
+
+These were done with the interactive webinterface on a jupyterNotebook. Felt more convenient than ssh terminal.
